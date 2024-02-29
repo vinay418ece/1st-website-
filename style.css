@@ -1,0 +1,182 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap')
+</style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    height: 100vh;
+    background-color:rgba(55, 0, 255, 0.778);
+    color: white;
+    font-family: 'roboto';
+    }
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 15vh;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    width:30%;
+    justify-content: space-around;
+    font-size:1.8rem;
+    align-items: center;
+
+}
+
+header ul img{
+    height: 3rem;
+}
+
+main{
+    height: 85vh;
+    display: flex;
+}
+
+main .left{
+    display: flex;
+    width: 35%;
+    display: grid;
+    grid-template-rows: 70% auto;
+
+}
+
+main .left .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+   
+}
+
+main .left .top h1{
+    font-size: 3rem;
+}
+
+main .left .top p{
+    writing-mode: vertical-lr;
+    font-size: 1.5rem;
+}
+
+main .left .bottom{
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.limited{
+    background-color: #212121;
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    writing-mode: vertical-lr;
+    top: -30%;
+    
+}
+
+/* Right section css */
+
+
+main .left .bottom p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+main .left .bottom h2{
+    font-size: 2rem;
+}
+
+
+
+
+
+main .right{
+    display: grid;
+    grid-template-rows: 80% auto;
+    width: 65%;
+}
+
+main .right .top{
+    display: flex;
+}
+
+main .right .top img{
+    height: 25rem;
+    filter: drop-shadow(12px 12px 7px black);
+}
+
+.a:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.underlined:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.user:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.limited:hover{
+    cursor: pointer;
+}
+
+.cursor:hover{
+    cursor: pointer;
+}
+
+
+main .right .top .b{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+main .right .top .b h1{
+    font-size: 2rem;
+
+}
+
+main .right .top .b ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+   
+}
+
+main .right .bottom{
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+
